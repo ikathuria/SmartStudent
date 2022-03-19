@@ -1,5 +1,0 @@
-- name: execute py script
-	env: 
-		EMSI_CLIENT_ID: ${{ secrets.EMSI_CLIENT_ID }}
-		EMSI_SECRET: ${{ secrets.EMSI_SECRET }}
-	run: python app.py
